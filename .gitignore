@@ -1,0 +1,8 @@
+node_modules/
+playground/
+dev.env
+test.env
+.env
+math.js
+math.test.js
+config
