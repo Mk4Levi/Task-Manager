@@ -8,15 +8,15 @@
 	*** To be updated
 */
 
-const sgMail = require("@sendgrid/mail");
+// const sgMail = require("@sendgrid/mail");
 
-const sendGridAPIKey = process.env.sendGridAPIKey;
+// const sendGridAPIKey = process.env.sendGridAPIKey;
 
-sgMail.setApiKey(sendGridAPIKey);
+// sgMail.setApiKey(sendGridAPIKey);
 
-sgMail.send({
-  to: process.env.emailTo,
-  from: process.env.emailFrom,
-  subject: process.env.emailTitle,
-  text: process.env.emailText,
-});
+// sgMail.send({
+//   to: process.env.emailTo,
+//   from: process.env.emailFrom,
+//   subject: process.env.emailTitle,
+//   text: process.env.emailText,
+// });
